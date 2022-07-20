@@ -9,7 +9,7 @@ use std::collections::HashMap;
 /// BlockResultWrapper is the payload from Scroll.
 #[derive(Deserialize, Serialize, Default, Debug)]
 pub struct BlockResultWrapper {
-    pub id: u64,
+    pub id: Hash,
     #[serde(rename = "blockTraces")]
     pub block_result: BlockResult,
 }
