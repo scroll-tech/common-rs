@@ -7,8 +7,8 @@ use zkevm::{
     utils::{get_block_result_from_file, read_env_var},
 };
 
-const PARAMS_DIR: &str = "./test_params";
-const SEED_PATH: &str = "./test_seed";
+const PARAMS_DIR: &str = "/home/ubuntu/common-rs/zkevm/release-0711/test_params";
+const SEED_PATH: &str = "/home/ubuntu/common-rs/zkevm/release-0711/test_seed";
 const ALL_TESTS: &[&str] = &[
     "empty", "greeter", "multiple", "native", "single", "dao", "nft", "sushi",
 ];
