@@ -2,6 +2,7 @@
 members = [
     "types",
     "zkevm",
+    "service",
     "bin",
 ]
 
